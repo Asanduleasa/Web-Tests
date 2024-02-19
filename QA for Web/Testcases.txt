@@ -1,4 +1,5 @@
 Test case for website https://www.fgo.ro/
+
 ### Scenario 1: Check Icon Status Update after Email Offer
 **Test Title:** Verify the icon status after Email Offer"
 **Description:** Check if the icon status updates correctly after sending the offer via email.  
