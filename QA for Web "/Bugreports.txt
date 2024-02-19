@@ -1,0 +1,48 @@
+### Bug Report for Live - Scenario 1:
+
+**Bug title:** Icon does not update correctly after sending offer via email  
+**Priority and severity:** Medium  
+**Description:** After sending the offer via email, the icon does not update its status correctly in real-time.  
+**Steps to reproduce:**
+1. Access the platform with company RO5268977.
+2. Select offer xSERV 0008.
+3. Click on the "Send via email" button.
+4. Receive notification and confirmation that the offer has been sent.
+5. Refresh the page.
+6. Verify the icon status.
+**Expected result:** The icon should change to "Sent" in real-time after sending the offer via email.  
+**Actual result:** The icon remains in the "Not Sent" state even though the offer has been successfully sent via email.  
+**Test data:** Dec. 2023, Jan. 2024, Company RO5268977, offers xSERV 0008, xSERV 0007.
+
+
+### Bug Report for Live - Scenario 2:
+
+**Bug title:** Offer not sent via email in a timely manner  
+**Priority and severity:** Medium  
+**Description:** The offer is not sent via email within a reasonable time frame, and the icon status incorrectly indicates that the offer is in the process of being sent.  
+**Steps to reproduce:**
+1. Access the platform with company RO5268977.
+2. Select offer xSERV 0007.
+3. Click on the "Send via email" button.
+4. Receive notification and confirmation that the offer has been sent.
+5. Wait for 10 minutes.
+6. Verify the icon status and email for offer xSERV 0007.
+**Expected result:** The offer should be sent via email within a reasonable time frame, and the icon status should update correctly.  
+**Actual result:** The offer is not sent via email, and the icon status incorrectly indicates that the offer is in the process of being sent.  
+**Test data:** Dec. 2023, Jan. 2024, Company RO5268977, offer xSERV 0007.
+
+
+### Bug Report for TestAPP:
+
+**Bug title:** Offer not sent via email in TestAPP  
+**Priority and severity:** Medium  
+**Description:** The offer is not sent via email in the TestAPP testing environment, and the icon status does not update.  
+**Steps to reproduce:**
+1. Access TestAPP with company RO1128546398.
+2. Select offer TEST 01.
+3. Click on the "Send via email" button.
+4. Receive notification and confirmation that the offer has been sent.
+5. Check the email for offer TEST 01.
+**Expected result:** The offer should be sent via email in TestAPP, and the icon status should update accordingly.  
+**Actual result:** The offer is not sent via email in TestAPP, and the icon status does not update.  
+**Test data:** Dec. 2023, Jan. 2024, Company RO1128546398, offer TEST 01.
